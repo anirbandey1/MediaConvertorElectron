@@ -21,7 +21,7 @@ app.on('ready',()=>{
     }
     )
 
-    mainWindow.loadURL("file://"+__dirname+"/main.html")
+    mainWindow.loadURL("file://"+__dirname+"/index.html")
     
     // garbage collection after main window is closed
 
